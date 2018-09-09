@@ -37,3 +37,25 @@ few configurations of qt-lightdm-greeter (background-image, positioning of login
 The configuration options are documented in that file.
 
 # Last Version of Lightdm
+
+`BG 0`
+![BG 1](resources/bgs/bg0.jpg)
+
+`BG 1`
+![BG 1](resources/bgs/bg1.jpg)
+
+`BG 2`
+![BG 2](resources/bgs/bg2.jpg)
+
+`BG 3`
+![BG 3](resources/bgs/bg3.jpg)
+
+`BG 4`
+![BG 4](resources/bgs/bg4.jpg)
+
+`BG 5`
+![BG 5](resources/bgs/bg5.jpg)
+
+`BG 6`
+![BG 6](resources/bgs/bg6.jpg)
+
