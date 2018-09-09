@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/dropdown.svg</file>
+        <file>resources/leaveIcon.svg</file>
+        <file>resources/rqt-2.png</file>
+        <file>resources/pardus.png</file>
+        <file>settings.cpp</file>
+        <file>resources/bgs/bg6.jpg</file>
+        <file>resources/bgs/bg5.jpg</file>
+        <file>resources/bgs/bg4.jpg</file>
+        <file>resources/bgs/bg3.jpg</file>
+        <file>resources/bgs/bg2.jpg</file>
+        <file>resources/bgs/bg1.jpg</file>
+        <file>resources/bgs/bg0.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formscreen</class>
+ <widget class="QDialog" name="formscreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>308</width>
+    <height>179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#formscreen{
+background-color:rgba(255,0,0,0.1);
+border-radius:10px;
+}
+#widget{
+background-color:rgba(108,108,108,0.2);
+border-radius:10px;
+}
+QWidget#icon{
+border-image:url(&quot;/home/pardus/Masaüstü/pardus.png&quot;) 10px 10px 10px 10px stretch stretch;
+}
+QWidget#icon:hover{
+border:5px solid red;
+}
+QDialog#formscreen{
+/*background:url(&quot;/home/pardus/Masaüstü/test.png&quot;) no-repeat left center ;*/
+background-color:rgb(26,26,26)
+
+}
+QWidget#icon_pardus{
+border-image:url(&quot;/home/pardus/Masaüstü/test.png&quot;) 0 0 0 0 stretch stretch   ;
+}
+QLabel#label{
+color:rgb(211,168,9);
+}
+QLineEdit{
+	border-radius:5px;
+	padding:5px;
+	color:rgb(150,120,9);
+}
+QLineEdit:focus{
+	border-radius:5px;
+	padding:5px;
+	border:3px solid rgb(211,168,9);
+}
+ QPushButton{
+	padding:2px;
+	margin:0;
+	border-radius:5px;
+	border:1px solid white;
+	color:white;
+	background:url(&quot;/home/pardus/Masaüstü/texture_button.jpeg&quot;)
+}
+QPushButton#button_onayla:hover{
+	color:green;
+}
+QPushButton#button_cikis:hover{
+	color:red;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="body" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>291</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>141</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="buttongroup">
+     <item>
+      <widget class="QLineEdit" name="edit_username">
+       <property name="placeholderText">
+        <string>Kullanıcı Adı</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_passwd">
+       <property name="placeholderText">
+        <string>Parola</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_passwd_ctr">
+       <property name="placeholderText">
+        <string>Parola (Tekrar)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>82</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="button_onayla">
+       <property name="text">
+        <string>ONAYLA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_cikis">
+       <property name="text">
+        <string>İPTAL</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="icon" native="true">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="icon_pardus" native="true">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Linux Libertine O</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Parola Sıfırla</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
